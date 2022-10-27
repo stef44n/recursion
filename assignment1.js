@@ -15,7 +15,7 @@ const fibs = function (num) {
     }
     return init;
 };
-
+console.log("FIBS ITERATION 1.1");
 console.log(fibs(8));
 
 const array = [0, 1];
@@ -32,4 +32,5 @@ const fibsRec = function (num) {
     return array;
 };
 
+console.log("FIBS RECURSION 1.2");
 console.log(fibsRec(8));
